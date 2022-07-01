@@ -38,3 +38,7 @@ footer {
 nav  li {
   cursor: pointer;
 }
+
+.navActive {
+  color: red;
+}
