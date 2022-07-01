@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers'
 
-function Nav() {
+function Nav(props) {
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+  } = props
+
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
   return (
     <header>
@@ -11,26 +21,19 @@ function Nav() {
         </h2>
         <nav>
             <ul className='flex-row'>
-                <li className=''>
-                    <a href="#about">
-                        About me
-                    </a>
-                </li>
-                <li className=''>
-                    <a href="#portfolio">
-                        Portfolio
-                    </a>
-                </li>
-                <li className=''>
-                    <a href="#contact">
-                        Contact
-                    </a>
-                </li>
-                <li className=''>
-                    <a href="#resume">
-                        Resume
-                    </a>
-                </li>
+            {categories.map((category) => (
+            <li className={`mx-1 ${
+                currentCategory.name === category.name && 'navActive'
+                }`} key={category.name}>
+              <span
+                onClick={() => {
+                  setCurrentCategory(category)
+                }}
+              >
+                {capitalizeFirstLetter(category.name)}
+              </span>
+            </li>
+          ))}
             </ul>
         </nav>
     </header>

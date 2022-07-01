@@ -34,3 +34,7 @@ footer {
   bottom: 0%;
   position: sticky;
 }
+
+nav  li {
+  cursor: pointer;
+}
