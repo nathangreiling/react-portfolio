@@ -26,3 +26,11 @@ li {
 a {
   text-decoration: none;
 }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background: lightblue;
+  bottom: 0%;
+  position: sticky;
+}
