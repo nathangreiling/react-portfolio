@@ -4,12 +4,12 @@ function Footer() {
     return(
         <footer className='footer'>
             <div>
-                <a href="githubhere" target="_blank">
+                <a href="https://github.com/nathangreiling" target="_blank">
                     <img src="" alt="github" className=''></img>
                 </a>
             </div>
             <div>
-                <a href="linkedinhere" target="_blank">
+                <a href="https://www.linkedin.com/in/nathan-greiling-7ba81b230/" target="_blank">
                     <img src="" alt="linkedin" className=''></img>
                 </a>
             </div>

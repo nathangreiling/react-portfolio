@@ -1,5 +1,4 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers'
 import About from '../About'
 import Portfolio from '../Portfolio';
 import Contact from '../Contact'
