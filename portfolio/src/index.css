@@ -22,7 +22,7 @@ header {
 }
 
 
-li {
+nav li {
   list-style: none;
 }
 
@@ -32,12 +32,12 @@ a {
 
 footer {
   display: flex;
-  flex-wrap: wrap;
   background: lightblue;
   bottom: 0%;
   position: sticky;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 
 header nav ul {
@@ -58,4 +58,12 @@ header nav ul li  {
 
 .navActive {
   color: red;
+}
+
+.logo {
+  width: 15%
+}
+
+.works {
+  width: 30%
 }

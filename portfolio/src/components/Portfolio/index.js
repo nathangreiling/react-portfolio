@@ -6,13 +6,13 @@ function Portfolio () {
         <section className=''>
             <div class="flex-row">
         <h2 class="section-title primary-border">
-          My Work
+          Portfolio
         </h2>
       </div>
       <div class="projects">
         <article class="projects">
           <a href="https://murmuring-crag-27720.herokuapp.com/">
-            <img src="./assets/images/Screenshot (25).png" alt="Food Junkies img Missing."/>
+            <img src={require('../../assets/images/Screenshot (25).png')} alt="Food Junkies img Missing." className='works'/>
           </a>
           <div class="project-description">
             <h3 class="project-name">Food Junkies</h3>
@@ -29,7 +29,7 @@ function Portfolio () {
 
         <article class="projects">
           <a href="https://nathangreiling.github.io/Work-Day-Scheduler/">
-            <img src="./assets/images/Screenshot (19).png" alt="Work Day Scheduler img Missing"/>
+            <img src={require('../../assets/images/Screenshot (19).png')} alt="Work Day Scheduler img Missing" className='works'/>
           </a>
           <div class="project-description">
             <h3 class="project-name">Work Day Scheduler</h3>
@@ -44,7 +44,7 @@ function Portfolio () {
 
         <article class="projects">
           <a href="https://nathangreiling.github.io/Super-Hero-Wiki/">
-            <img src="./assets/images/Screenshot (20).png" alt="Super Hero Wiki img missing"/>
+            <img src={require('../../assets/images/Screenshot (20).png')} alt="Super Hero Wiki img missing" className='works'/>
           </a>
           <div class="project-description">
             <h3 class="project-name">Super Hero Wiki</h3>
