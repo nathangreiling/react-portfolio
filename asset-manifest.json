@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a5534d5f.css",
+    "main.js": "/react-portfolio/static/js/main.58030122.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Screenshot (25).png": "/react-portfolio/static/media/Screenshot (25).a695d19dfb33b32ee561.png",
+    "static/media/Screenshot (20).png": "/react-portfolio/static/media/Screenshot (20).bb19e3de73a136314c66.png",
+    "static/media/selfie.jpg": "/react-portfolio/static/media/selfie.90646d9a6eb7505422c8.jpg",
+    "static/media/logo-stackoverflow.png": "/react-portfolio/static/media/logo-stackoverflow.e2c42001135addbad748.png",
+    "static/media/Screenshot (19).png": "/react-portfolio/static/media/Screenshot (19).2bac17a632475ae736cd.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.a5534d5f.css.map": "/react-portfolio/static/css/main.a5534d5f.css.map",
+    "main.58030122.js.map": "/react-portfolio/static/js/main.58030122.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5534d5f.css",
+    "static/js/main.58030122.js"
+  ]
+}
