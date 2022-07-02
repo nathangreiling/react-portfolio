@@ -13,9 +13,12 @@ code {
 }
 
 header {
-  display: flex;
-  flex-wrap: wrap;
   background: lightblue;
+  display: flex;
+  top: 0%;
+  flex-wrap: wrap;
+  position: sticky;
+  padding: 20px 35px;
 }
 
 
@@ -35,7 +38,21 @@ footer {
   position: sticky;
 }
 
-nav  li {
+
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header nav ul li  {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
