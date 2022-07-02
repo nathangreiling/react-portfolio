@@ -37,7 +37,7 @@ function ContactForm() {
   
     return (
       <section>
-        <h2>Contact me</h2>
+        <h2>Contact Me</h2>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -58,6 +58,7 @@ function ContactForm() {
           )}
           <button data-testid="button" type="submit">Submit</button>
         </form>
+        <div>Reach out to me by email: ngreiling20@gmail.com</div>
       </section>
     );
   }
