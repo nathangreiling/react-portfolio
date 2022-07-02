@@ -25,7 +25,6 @@ function App() {
         currentCategory={currentCategory}
         ></Nav>
       <main>
-        {/* <About></About> */}
         <Content currentCategory={currentCategory}></Content>
       </main>
       <Footer></Footer>

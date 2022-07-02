@@ -1,6 +1,5 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers'
-import ContentList from '../ContentList';
 import About from '../About'
 import Portfolio from '../Portfolio';
 import Contact from '../Contact'
@@ -25,8 +24,8 @@ function Content(props) {
 }
     return (
         <section>
-            <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
-            <p>{currentCategory.description}</p>
+            {/* <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
+            <p>{currentCategory.description}</p> */}
             <div>{render()}</div>
         </section>
     )
