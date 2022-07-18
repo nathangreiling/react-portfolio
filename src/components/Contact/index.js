@@ -36,9 +36,9 @@ function ContactForm() {
     };
   
     return (
-      <section>
+      <section className="contact">
         <h2>Contact Me</h2>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -56,9 +56,13 @@ function ContactForm() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button data-testid="button" type="submit">Submit</button>
+          <button className="cntbtn" id="button" type="submit">Submit</button>
         </form>
-        <div>Reach out to me by email: ngreiling20@gmail.com</div>
+        <div className='altcnt'>
+          <h2>For quicker responses:</h2>
+        <div>Email: ngreiling20@gmail.com</div>
+        <div>Phone: (951) 520-3875</div>
+        </div>
       </section>
     );
   }

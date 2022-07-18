@@ -15,7 +15,7 @@ function Nav(props) {
   return (
     <header>
         <h2>
-            <a href="/">
+            <a href="/" className='me'>
                 <span></span> Nathan Greiling
             </a>
         </h2>

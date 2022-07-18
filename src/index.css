@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -13,12 +16,13 @@ code {
 }
 
 header {
-  background: lightblue;
+  background: rgb(9, 60, 60);
   display: flex;
   top: 0%;
   flex-wrap: wrap;
   position: sticky;
   padding: 20px 35px;
+  color: white;
 }
 
 
@@ -32,11 +36,12 @@ a {
 
 footer {
   display: flex;
-  background: lightblue;
+  background: rgb(9, 60, 60);
   bottom: 0%;
   position: sticky;
-  justify-content: space-between;
   align-items: center;
+  position: fixed;
+  text-align: center;
 }
 
 
@@ -51,23 +56,139 @@ header nav ul {
 header nav ul li  {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.55rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
 .navActive {
-  color: red;
+  color: yellowgreen;
 }
 
 .logo {
-  width: 15%
+  width: 15%;
+  min-width: 25px;
 }
 
 .works {
-  width: 30%
+  width: 15vw;
+  min-width: 200px;
 }
 
 .selfie {
-  width: 15%
+  width: 25%;
+  padding: 25px;
+  border-radius: 5rem;
+  float:right;
+  min-width: 200px;
+}
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects {
+  margin: 20px;
+  flex: 1;
+}
+
+.project-description {
+  padding: 25px;
+  line-height: 1.3;
+  font-style: italic;
+  font-size: 1.55rem;
+  position: inherit;
+  color: white;
+}
+
+.me {
+  font-size: 2.8rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  padding: 2rem;
+  color: white;
+}
+
+.intro {
+  padding: 5vw 5vw 2vw 5vw;
+  font-size: 35px;
+  font-style:italic;
+  text-indent: 4rem;
+}
+
+.intro-desc {
+  padding: 0vw 35% 0vw 10%;
+  font-size: 1.55rem;
+  text-indent:2rem;
+}
+
+.resume {
+  color:white;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+.contact {
+  color:white;
+}
+
+.frontEnd {
+  float:left;
+  padding: 80px;
+  font-size: 20px;
+}
+
+.backEnd {
+  float:left;
+  padding: 80px;
+  font-size: 20px;
+}
+
+.contact-form {
+  float:left;
+  width: 30%;
+  background-color: lightgrey;
+  border: 1px solid;
+  padding: 25px;
+  border-radius: 12px;
+  min-width: 200px;
+}
+
+label, input, textarea {
+  width:100%
+}
+
+label {
+  color: black;
+  font-weight: 500;
+}
+
+.cntbtn {
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.altcnt{
+  float: right;
+  padding: 0vw 20% 0vw 0vw;
+  font-size: 20px;
+
+}
+
+.project-name {
+  text-decoration: underline;
 }
